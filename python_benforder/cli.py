@@ -17,7 +17,10 @@ def main():
     if args.filename:
         # Then ignore stdout and use the file input instead
         with open(args.filename) as data:
-            print(pb.calculate(data)) # TODO: Pretty print
+            # To clean the data, we make it into an object that cleans each line. 
+            # And it will also count the lines and the length
+            cleandata = pb.LenGeneratorFile(data)
+            print(pb.calculate(cleandata)) # TODO: Pretty print
     return 0
 
 

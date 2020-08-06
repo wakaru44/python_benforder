@@ -2,7 +2,6 @@
 Python Benforder
 ================
 
-
 .. image:: https://img.shields.io/pypi/v/python_benforder.svg
         :target: https://pypi.python.org/pypi/python_benforder
 
@@ -22,6 +21,10 @@ Python Benforder
 
 A small python CLI tool to check the bendfordness of a bunch of numbers
 
+Learn more about Benford's Law [Here on youtube](https://www.youtube.com/watch?v=XXjlR2OK1kM)
+
+This script will take a list of numbers (of a few orders of magnitude of size) 
+
 
 * Free software: GNU General Public License v3
 * Documentation: https://python-benforder.readthedocs.io.
@@ -30,7 +33,9 @@ A small python CLI tool to check the bendfordness of a bunch of numbers
 Features
 --------
 
-* TODO
+* For now, you have to give it a file with `-f` 
+
+* In a near future, I want to add stdin as well
 
 Credits
 -------
